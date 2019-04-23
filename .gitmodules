@@ -1,0 +1,3 @@
+[submodule "stopwords-de"]
+	path = stopwords-de
+	url = https://github.com/stopwords-iso/stopwords-de
