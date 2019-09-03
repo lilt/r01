@@ -67,7 +67,7 @@ def rk references,
 end
 
 def main
-  config = Trollop::options do
+  config = Optimist::options do
     opt :input, "File with hypotheses, truecased and tokenized",       :type => :string, :short => "-i", :default => '-'
     opt :references, "File with references, truecased and tokenized",  :type => :string, :short => "-r", :required => true
     opt :stopwords, "File with stopwords, one per line",               :type => :string, :short => "-s", :required => true

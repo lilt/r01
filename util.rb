@@ -1,5 +1,5 @@
 require 'zipf'
-require 'trollop'
+require 'optimist'
 
 def read_stopwords_file fn
   stopwords = {}
